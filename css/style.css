@@ -75,6 +75,7 @@ h1 {
   font-size: 48px;
   font-weight: 800;
   color: #FFF;
+  letter-spacing: 1.2px;
   padding-left: 50px;
   padding-top: 10px;
 }
@@ -85,7 +86,7 @@ h2 {
   text-align: center;
   padding: 10px 0 45px 0;
 }
-a { /* This also defines properties and values for the button in Sign Up.*/
+a { /* This also defines properties and values for the button in 'Sign Up'. */
   font-weight: 800;
   border-radius: 5px;
   text-decoration: none;
@@ -95,13 +96,13 @@ a { /* This also defines properties and values for the button in Sign Up.*/
   text-align: center;
   margin: 0 auto;
 }
-.button-top {
+.get-it {
+  padding-bottom: 120px;
+}
+.get-it-button {
   font-size: 14px;
   color: #033048;
   background-color: #f9e42e;
-}
-.get-it-button {
-  padding-bottom: 120px;
 }
 
 /* Benefits */
@@ -112,7 +113,7 @@ h3 {
   font-size: 20px;
   font-weight: 600;
   color: #033048;
-  padding: 40px 0 10px 50px;
+  padding: 45px 0 10px 50px;
 }
 p,
 ul {
@@ -122,7 +123,7 @@ ul {
   margin-left: 50px;
 }
 ul {
-  padding: 30px 0 40px 60px;
+  padding: 30px 0 45px 60px;
 }
 li {
   list-style: disc;
@@ -144,22 +145,22 @@ h4 {
 .quote {
   font-weight: 300;
   font-style: italic;
-  padding: 40px 0 10px 0;
+  padding: 45px 0 10px 0;
 }
 .customer {
   font-weight: 600;
   font-style: normal;
-  padding: 0 0 40px 0;
+  padding: 0 0 45px 0;
 }
 
 /* Sign Up */
-.sign-up {
+.yellow-lane {
 background-color: #f9e42e;
 }
-.sign-up-button {
+.sign-up {
   padding: 20px 0;
 }
-.button-bottom {
+.sign-up-button {
   font-size: 12px;
   color: #FFF;
   background-color: #033048;
@@ -174,17 +175,39 @@ h5 {
   font-size: 24px;
   font-weight: 800;
   text-align: center;
-  padding: 40px 0 20px 0;
+  letter-spacing: 1.2px;
+  padding: 35px 0 20px 0;
+}
+.twitter-container {
+  float: left;
+  position: relative;
+  width: 50%;
+  height: 50px;
 }
 .twitter {
   float: left;
-  width: 50%;
+  width: 40px;
+  height: 45px;
+  background: url(../images/twitter.png) no-repeat center;
+  background-size: 75% auto;
+  position: absolute;
+  right: 5px;
+}
+.facebook-container {
+  float: right;
+  position: relative;
+  width:50%;
+  height: 50px;
 }
 .facebook {
   float: right;
-  width: 50%;
+  width: 40px;
+  height: 45px;
+  background: url(../images/facebook.png) no-repeat center;
+  background-size: auto 65%;
+  position: absolute;
+  left: 5px;
 }
-/* I couldn't get the Twitter and Facebook icons to display closer to each other. */
 
 /* Footer */
 footer {
@@ -193,6 +216,6 @@ footer {
   font-size: 9px;
   font-weight: 600;
   text-align: center;
-  padding: 40px 0 20px 0;
+  padding: 40px 0 25px 0;
   clear: both;
 }
