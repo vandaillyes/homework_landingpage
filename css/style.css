@@ -68,8 +68,8 @@ body {
 
 /* Header */
 header {
-background: url(../images/header_bg.jpg) no-repeat center rgb(134,141,157);
-background-size: cover;
+  background: url(../images/header_bg.jpg) no-repeat center rgb(134,141,157);
+  background-size: cover;
 }
 h1 {
   font-size: 48px;
@@ -132,6 +132,7 @@ li {
 .testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat center;
   background-size: cover;
+  opacity: 0.9;
 }
 h4 {
   color: #FFF;
