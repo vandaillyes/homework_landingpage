@@ -66,8 +66,12 @@ body {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/******************************************
+/* INDEX
+/*******************************************/
+
 /* Header */
-header {
+.index-header {
   background: url(../images/header_bg.jpg) no-repeat center rgb(134,141,157);
   background-size: cover;
 }
@@ -95,6 +99,9 @@ a { /* This also defines properties and values for the button in 'Sign Up'. */
   display: block;
   text-align: center;
   margin: 0 auto;
+}
+.hover:hover{
+  box-shadow: 2px 2px 3px #9F034C;
 }
 .get-it {
   padding-bottom: 120px;
@@ -135,26 +142,28 @@ li {
   background-size: cover;
   opacity: 0.9;
 }
-h4 {
+blockquote {
   color: #FFF;
   font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
   text-align: center;
   width: 400px;
   margin: 0 auto;
-}
-.quote {
-  font-weight: 300;
-  font-style: italic;
-  padding: 45px 0 10px 0;
+  padding: 45px 0 0 0;
 }
 .customer {
+  color: #FFF;
+  font-size: 18px;
   font-weight: 600;
   font-style: normal;
+  text-align: center;
+  margin: 0 auto;
   padding: 0 0 45px 0;
 }
 
 /* Sign Up */
-.yellow-lane {
+.sign-up-lane {
 background-color: #f9e42e;
 }
 .sign-up {
@@ -218,4 +227,181 @@ footer {
   text-align: center;
   padding: 40px 0 25px 0;
   clear: both;
+}
+
+/******************************************
+/* BLOG
+/*******************************************/
+
+/* Set the background grey for the mid lane area*/
+#blog-container {
+  background-color: #f0efef;
+}
+
+/* Header */
+.blog-header {
+  background-color: #033048;
+}
+
+.blog-h1 {
+  float: left;
+  width: 40%;
+}
+
+.blog-nav {
+  float: right;
+  width: 60%;
+}
+
+nav ul li {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 0 0 0 20px;
+}
+
+  nav ul li a {
+    text-decoration: none;
+    display: inline;
+    color: #f9e42e;
+  }
+
+  nav ul li a:hover {
+    color: #9F034C;
+  }
+
+/* Mid Lane */
+#mid-lane {
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Case Studies */
+.case-studies {
+  width: 66%;
+  float: left;
+  background-color: #f0efef;
+  padding-right: 10px;
+  padding-bottom: 60px;
+}
+
+.case-study {
+  position: relative;
+  border-bottom: 1px solid #606161;
+  margin-bottom: 30px;
+}
+
+article h2 {
+  color: #033048;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: left;
+}
+
+article p {
+  color: #606161;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-left: 0;
+  padding-bottom: 100px;
+}
+
+article p:first-letter { /*When I include "first-child" as well (article p:first-child:first-letter), then it doesn'get picked up. Why is that?*/
+  float: left;
+  font-size: 60px;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.case-study-pic {
+  width: 100%;
+}
+
+.read-more {
+  color: #033048;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 0;
+  padding-bottom: 20px;
+}
+
+.read-more:hover {
+  color: #9F034C;
+}
+
+/* Side Bar */
+.side-bar {
+  width: 34%;
+  float: right;
+  background-color: #f0efef;
+  padding-left: 10px;
+}
+
+aside h2 {
+  color: #033048;
+  font-weight: 800;
+  font-size: 32px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.categories {
+margin-bottom: 50px;
+}
+
+aside ul {
+  padding: 0;
+  margin: 0;
+}
+
+  aside ul li {
+    list-style: none;
+  }
+
+    aside ul li a {
+      text-decoration: none;
+      color: #033048;
+      font-weight: 300;
+      font-size: 24px;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+    }
+
+.about {
+    margin-bottom: 50px;
+    }
+
+aside p {
+  color: #033048;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.2;
+  margin-left: 0;
+}
+
+.learn-more {
+  color: #033048;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.learn-more:hover {
+  color: #9F034C;
+}
+
+/* Sign Up */
+.blog-sign-up-lane {
+  background-color: #f9e42e;
+  clear: both;
+  display: block;
 }
