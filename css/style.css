@@ -299,12 +299,27 @@ article h2 {
   text-align: left;
 }
 
+.img-1 {
+  background: url(../images/blog_photo1.jpg) no-repeat center center;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 40%;
+}
+
+.img-2 {
+  background: url(../images/blog_photo2.jpg) no-repeat center center;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 40%;
+}
+
 article p {
   color: #606161;
   font-weight: 300;
   font-size: 24px;
   line-height: 1.4;
   margin-left: 0;
+  padding-top: 30px;
   padding-bottom: 100px;
 }
 
@@ -313,10 +328,7 @@ article p:first-letter { /*When I include "first-child" as well (article p:first
   font-size: 60px;
   font-weight: 600;
   padding-right: 10px;
-}
-
-.case-study-pic {
-  width: 100%;
+  line-height: 1.2;
 }
 
 .read-more {
